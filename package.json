@@ -1,11 +1,12 @@
 {
   "name": "@ryanforever/pmp",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Map ports using PMP (NAT Port Mapping Protocol)",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon test.js"
+    "test": "nodemon test.js",
+    "build": "npm version patch --no-git-tag-version && npm i && npm publish"
   },
   "keywords": [
     "nat",
