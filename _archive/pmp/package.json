@@ -1,0 +1,30 @@
+{
+  "name": "@ryanforever/pmp",
+  "version": "1.2.1",
+  "description": "map ports using pmp",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test.js"
+  },
+  "keywords": [
+    "nat-pmp",
+    "pmp",
+    "nat",
+    "port",
+    "mapping"
+  ],
+  "author": "ryan forever",
+  "license": "ISC",
+  "dependencies": {
+    "@ryanforever/logger": "^5.0.3",
+    "nat-pmp": "^1.0.0"
+  },
+  "overrides": {
+    "nat-pmp": {
+      "debug": "^4.3.4"
+    }
+  },
+  "files": [
+    "src"
+  ]
+}
