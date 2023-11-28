@@ -7,10 +7,6 @@
   "scripts": {
     "test": "nodemon test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/TooTallNate/node-nat-pmp.git"
-  },
   "keywords": [
     "nat",
     "pmp",
@@ -26,5 +22,19 @@
     "@ryanforever/logger": "^5.0.3",
     "debug": "^4.3.4"
   },
-  "files": ["src"]
+  "files": [
+    "src"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanfarber/pmp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanfarber/pmp/issues"
+  },
+  "homepage": "https://github.com/ryanfarber/pmp#readme"
 }

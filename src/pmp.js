@@ -167,7 +167,7 @@ Client.prototype.externalIp = function (cb) {
  * Sets up a new port mapping.
  */
 
-Client.prototype.portMapping = function (opts, cb) {
+Client.prototype.portMapping = function (optfs, cb) {
   var opcode;
   switch (String(opts.type || 'tcp').toLowerCase()) {
     case 'tcp':
