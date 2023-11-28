@@ -1,6 +1,6 @@
 {
   "name": "@ryanforever/pmp",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Map ports using PMP (NAT Port Mapping Protocol)",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "main": "index.js",
