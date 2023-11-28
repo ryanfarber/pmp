@@ -1,7 +1,7 @@
 # pmp
 Map ports using PMP (NAT Port Mapping Protocol)
 
-This is a wrapper of [nat-pmp](https://www.npmjs.com/package/nat-pmp)
+This is a fork of [nat-pmp](https://www.npmjs.com/package/nat-pmp).  Added async/await and easier methods.
 
 ## usage
 ```javascript
